@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0a0a1a">
+  <!-- Primary SEO -->
+  <title>Nimbus — Publish Button Animation | mrchandrayee</title>
+  <meta name="description" content="A cloud-themed animated publish button with upload-to-cloud progress effect. Pure HTML, CSS & JavaScript.">
+  <meta name="author" content="mrchandrayee">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://mrchandrayee.github.io/nimbus-publish-button-animation/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mrchandrayee.github.io/nimbus-publish-button-animation/">
+  <meta property="og:title" content="Nimbus — Publish Button Animation | mrchandrayee">
+  <meta property="og:description" content="A cloud-themed animated publish button with upload-to-cloud progress effect. Pure HTML, CSS & JavaScript.">
+  <meta property="og:image" content="https://mrchandrayee.github.io/nimbus-publish-button-animation/preview.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://mrchandrayee.github.io/nimbus-publish-button-animation/">
+  <meta name="twitter:title" content="Nimbus — Publish Button Animation | mrchandrayee">
+  <meta name="twitter:description" content="A cloud-themed animated publish button with upload-to-cloud progress effect. Pure HTML, CSS & JavaScript.">
+  <meta name="twitter:image" content="https://mrchandrayee.github.io/nimbus-publish-button-animation/preview.png">
+  <meta name="twitter:creator" content="@mrchandrayee">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Nimbus — Publish Button Animation",
+    "description": "A cloud-themed animated publish button with upload-to-cloud progress effect. Pure HTML, CSS & JavaScript.",
+    "url": "https://mrchandrayee.github.io/nimbus-publish-button-animation/",
+    "author": { "@type": "Person", "name": "mrchandrayee", "url": "https://github.com/mrchandrayee" },
+    "applicationCategory": "WebApplication",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  }
+  </script>
+  <meta name="theme-color" content="#080a10">
+  
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <main class="page">
+    <header class="page-heading">
+      <p class="eyebrow">MICRO INTERACTION / NIMBUS</p>
+      <h1>Publish Button<br><span>Animation</span></h1>
+      <p class="subtitle">One click. A little cloud. A satisfying finish.</p>
+    </header>
+
+    <section class="demo-grid" aria-label="Publish button themes">
+      <article class="demo-card light-card">
+        <div class="card-label"><span class="swatch"></span> LIGHT MODE</div>
+        <div class="button-well">
+          <button class="nimbus nimbus-light" type="button" aria-label="Publish in light mode">
+            <span class="nimbus-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" class="nimbus-svg">
+                <g class="nimbus-cloud">
+                  <path class="cloud-shape" d="M7.2 17.1h9.4a3.55 3.55 0 0 0 .25-7.09 5.2 5.2 0 0 0-10.08-.55 3.9 3.9 0 0 0 .43 7.64Z"/>
+                  <path class="cloud-detail" d="M12 13.1v5.2m-2-2 2 2 2-2"/>
+                </g>
+                <path class="check-mark" d="m7.3 12.5 3.1 3.1 6.5-7"/>
+              </svg>
+            </span>
+            <span class="button-text">Publish</span>
+          </button>
+        </div>
+      </article>
+
+      <article class="demo-card dark-card">
+        <div class="card-label"><span class="swatch"></span> DARK MODE</div>
+        <div class="button-well">
+          <button class="nimbus nimbus-dark" type="button" aria-label="Publish in dark mode">
+            <span class="nimbus-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" class="nimbus-svg">
+                <g class="nimbus-cloud">
+                  <path class="cloud-shape" d="M7.2 17.1h9.4a3.55 3.55 0 0 0 .25-7.09 5.2 5.2 0 0 0-10.08-.55 3.9 3.9 0 0 0 .43 7.64Z"/>
+                  <path class="cloud-detail" d="M12 13.1v5.2m-2-2 2 2 2-2"/>
+                </g>
+                <path class="check-mark" d="m7.3 12.5 3.1 3.1 6.5-7"/>
+              </svg>
+            </span>
+            <span class="button-text">Publish</span>
+          </button>
+        </div>
+      </article>
+    </section>
+
+    <p class="instruction">Click either button to replay the animation</p>
+    <section class="steps">
+      <div><span>01</span><b>Publish</b><small>Ready to send</small></div>
+      <div><span>02</span><b>Loading</b><small>Cloud rolls forward</small></div>
+      <div><span>03</span><b>Done</b><small>Checkmark confirms</small></div>
+    </section>
+    <footer>NIMBUS <i>•</i> HTML / CSS / JAVASCRIPT</footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
